@@ -118,7 +118,7 @@ blockquote span {
 /* header */
 
 .header {
-  background: url(/img/san-francisco.jpg) no-repeat;
+  background: url(https://raw.githubusercontent.com/patrickm02L/awesome-reports/gh-pages/img/san-francisco.jpg) no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
