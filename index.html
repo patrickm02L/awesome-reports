@@ -1,0 +1,62 @@
+---
+title: awesome-reports
+weight: 6
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Your Awesome Title</title>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/report.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/blocks.css">
+
+    {% include analytics.html %}
+</head>
+
+
+<body>
+    {% include report/header.html %}
+
+    {% include report/nav.html %}
+
+<hr id="summary">
+
+  <div class="container">
+
+    {% include report/summary.html %}
+
+  </div>
+
+<hr id="intro">
+
+  <div class="container">
+
+    {% include report/intro.html %}
+
+  </div>
+
+<hr id="projects">
+
+  <div class="container">
+
+    {% include report/projects.html %}
+
+  </div>
+
+<hr id="conclusion">
+
+  <div class="container">
+
+    {% include report/conclusion.html %}
+
+  </div>
+
+    {% include report/footer.html %}
+</body>
+</html>
+
+</div>
