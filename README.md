@@ -9,8 +9,5 @@ Navigate to the directory where you've saved awesome-reports then run `bundle in
 
 To ensure the proper jekyll is running run Jekyll with `bundle exec jekyll install`.
 
-## Trouble Shooting
-If you're having trouble running you may have to `gem install rails -v 3.2.1`, then `bundle exec jekyll install`.
-
-###Inspired by
+### Inspired by
 [Code for America 2015 Fellows, Team RVA Report ](https://github.com/codeforamerica/rva) 
